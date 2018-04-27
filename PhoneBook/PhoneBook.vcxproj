@@ -110,6 +110,15 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClInclude Include="DATE.h" />
+    <ClInclude Include="PhoneBook.h" />
+    <ClInclude Include="TEL.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="DATE.cpp" />
+    <ClCompile Include="PhoneBook.cpp" />
+    <ClCompile Include="Source.cpp" />
+    <ClCompile Include="TEL.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
